@@ -6,12 +6,12 @@ namespace ConsoleCalculator
 {
     class NumberClass
     {
-        private double Number;
+        private float Number;
         public NumberClass() {
         }
         public double Num {
             get { return Number; }
-            set { Number =value; }
+            set { Number = (float)value; }
         }
     }
 }
